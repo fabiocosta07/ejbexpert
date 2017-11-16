@@ -15,6 +15,7 @@ import javax.xml.ws.Action;
  * Generated source version: 2.2
  * 
  */
+// example 111-5
 @WebService(name = "WebSvcRpcSample", targetNamespace = "http://company.com/")
 @SOAPBinding(style = SOAPBinding.Style.RPC)
 public interface WebSvcRpcSample {

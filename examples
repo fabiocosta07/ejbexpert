@@ -1,0 +1,10 @@
+111-1 - JAX-WS sample calling ejb
+111-2 - JAX-RPC sample calling ejb
+111-3 - JAX-RPC client 
+111-4 - JAX-RPC publisher
+111-5 - JAX-RPC client with wsimport stups
+
+111-6 - JAX-WS calling MessageContext
+111-7 - JAX-RPC calling MessageContext
+
+

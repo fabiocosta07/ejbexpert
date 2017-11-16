@@ -7,7 +7,7 @@ import javax.jws.soap.SOAPBinding;
 /**
  * Created by efabapo on 15/11/17.
  */
-// example 111
+// example 111-2
 @WebService
 @SOAPBinding(style = SOAPBinding.Style.RPC)
 public interface WebSvcRpcSample {

@@ -7,6 +7,7 @@ import javax.ejb.Stateless;
  */
 // example 111-1
 // example 111-2
+// example 111-8
 @Stateless
 public class Ejb1 {
     public String testEjbMethod1(){

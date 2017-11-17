@@ -7,6 +7,7 @@ import java.util.Properties;
 /**
  * Created by efabapo on 30/10/17.
  */
+//example 111-9
 public class Main {
 
     private void connect() {
@@ -17,8 +18,9 @@ public class Main {
             props.setProperty("org.omg.CORBA.ORBInitialPort", "3700");
 
             InitialContext ctx = new InitialContext();
-            CartRemote cartRemote = (CartRemote) ctx.lookup("java:global/earsample/ejbsample-1.0-SNAPSHOT/CartBean!com.company.CartRemote");
-            cartRemote.createCart("Teste");
+            EjbRemote2 ejbRemote2 = (EjbRemote2) ctx.lookup("java:global/ejbexpert/Ejb2!com.company.EjbRemote2");
+            String ret = ejbRemote2.testMethod2("appclient");
+            System.out.println(ret);
         }catch(Exception ex){
             ex.printStackTrace();
         }

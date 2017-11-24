@@ -10,4 +10,5 @@
 112-1 - Ejb local - same app / diferent app
 113-1 - Ejb Remote - Serialized args
 
+215-1 - WebServlet sample calling ejb
 218-1 - Asyncrhonus call

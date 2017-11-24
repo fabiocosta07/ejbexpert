@@ -7,7 +7,7 @@
 111-6 - JAX-WS calling MessageContext
 111-7 - JAX-RPC calling MessageContext
 
-111-8 - Ejb local - same app / diferent app
-111-9 - Ejb Remote - Serialized args
+112-1 - Ejb local - same app / diferent app
+113-1 - Ejb Remote - Serialized args
 
 218-1 - Asyncrhonus call

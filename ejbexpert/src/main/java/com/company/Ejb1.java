@@ -9,7 +9,7 @@ import java.util.concurrent.Future;
  */
 // example 111-1
 // example 111-2
-// example 111-8
+// example 112-1
 @Stateless
 public class Ejb1 implements EjbLocal1{
     public String testEjbMethod1(){

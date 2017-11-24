@@ -9,3 +9,5 @@
 
 111-8 - Ejb local - same app / diferent app
 111-9 - Ejb Remote - Serialized args
+
+218-1 - Asyncrhonus call

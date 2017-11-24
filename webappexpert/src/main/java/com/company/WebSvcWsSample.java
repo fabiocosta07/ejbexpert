@@ -15,7 +15,7 @@ import javax.xml.ws.handler.MessageContext;
 public class WebSvcWsSample {
 
     @EJB
-    private Ejb1 ejb1;
+    private EjbLocal1 ejb1;
 
     @Resource
     WebServiceContext webServiceContext;

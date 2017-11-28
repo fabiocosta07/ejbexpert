@@ -1,7 +1,6 @@
 package com.company;
 
-import com.company.rest.Rest1;
-import com.company.rest.Rest2;
+import com.company.rest.*;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
@@ -19,6 +18,9 @@ public class MyApplication extends Application{
         HashSet h = new HashSet<Class<?>>();
         h.add( Rest1.class );
         h.add( Rest2.class );
+        h.add( Rest3.class );
+        h.add( Rest4.class );
+        h.add( Rest5.class );
         return h;
     }
 }

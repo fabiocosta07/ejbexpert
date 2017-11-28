@@ -12,3 +12,7 @@
 
 215-1 - WebServlet sample calling ejb
 218-1 - Asyncrhonus call
+31    - JMS sample
+3101  - JMS CMT - redelivery case
+3102  - JMS BMT - redelivery case
+ 

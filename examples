@@ -20,7 +20,7 @@
 3101  - JMS CMT - redelivery case
 3102  - JMS BMT - redelivery case
 
-521-1 - Statefull Bean not commiting transaction
-521-2 - Stateless Bean not commiting transaction
+521-1 - Stateless  Bean not commiting transaction
+521-2 - Statefull  Bean not commiting transaction
 
 

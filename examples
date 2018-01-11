@@ -20,6 +20,9 @@
 3101  - JMS CMT - redelivery case
 3102  - JMS BMT - redelivery case
 
+4.4   - AroundInvoke
+4.5   - AroundTimeout
+
 521-1 - Stateless  Bean not commiting transaction
 521-2 - Statefull  Bean not commiting transaction
 

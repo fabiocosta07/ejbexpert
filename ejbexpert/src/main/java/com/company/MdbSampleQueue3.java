@@ -33,11 +33,11 @@ public class MdbSampleQueue3 implements MessageListener{
 
             if (singleton1.getCountRedelivery3() < 1){
                 singleton1.addCountreRelivery3();
-                System.out.println("RRRRRR Message Redelivered times:"+singleton1.getCountRedelivery3());
-                throw new RuntimeException("RRRuntimeExxcetion");
+                System.out.println("MdbSampleQueue3 Message Redelivered times:"+singleton1.getCountRedelivery3());
+                throw new RuntimeException("RRuntimeExxcetion");
             } else {
                 try {
-                    System.out.println("XXXXXXXXXXX" + ((TextMessage)message).getText());
+                    System.out.println("Message Consumed" + ((TextMessage)message).getText());
                     messageDrivenContext.getUserTransaction().commit();
                 } catch (JMSException e) {
                     e.printStackTrace();

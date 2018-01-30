@@ -38,4 +38,15 @@ public class Singleton1 {
     public void addCountreRelivery3(){
         countRedelivery3++;
     }
+
+    // example 3103
+    private int countRedelivery4;
+
+    public int getCountRedelivery4() {
+        return countRedelivery4;
+    }
+
+    public void addCountreRelivery4(){
+        countRedelivery4++;
+    }
 }

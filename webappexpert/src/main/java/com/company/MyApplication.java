@@ -26,6 +26,7 @@ public class MyApplication extends Application{
         h.add( Rest8.class );
         h.add( Rest9.class );
         h.add( Rest10.class );
+        h.add( Rest11.class );
         return h;
     }
 }

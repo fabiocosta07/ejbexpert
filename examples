@@ -17,11 +17,12 @@
 236   - Statefull EJB - Remove
 
 31    - JMS sample
-3101  - JMS CMT - redelivery case
-3102  - JMS BMT - redelivery case
+3101  - JMS BMT - redelivery case with rollback
+3102  - JMS BMT - redelivery case with Runtime Exception
+3103  - JMS CMT - redelivery case with Runtime Exception
 
-4.4   - AroundInvoke
-4.5   - AroundTimeout
+44   - AroundInvoke
+45   - AroundTimeout
 
 521-1 - Stateless  Bean not commiting transaction
 521-2 - Statefull  Bean not commiting transaction
